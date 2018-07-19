@@ -1,4 +1,88 @@
-h1{
-  font-family: 'Open Sans', sans-serif;
+body {
+  background-color: #F5F5F5;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #373737;
+}
+
+/* unvisited link */
+
+a:link {
+  color: #373737;
+}
+
+/* visited link */
+
+a:visited {
+  color: #373737;
+}
+
+/* mouse over link */
+
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+
+a:active {
+  color: #373737;
+}
+
+h1 {
   font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+}
+
+ul.navigationarea {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+li.listarea {
+  display: inline;
+  text-align: center;
+  margin: 5px;
+}
+
+img.MeetDiana {
+  width: 150px;
+  height: 150px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px 10px 3px 10px;
+  float: left;
+}
+
+h2 {
+  text-transform: uppercase;
+  text-align: center;
+  padding-left: 25px;
+  font-size: 20px;
+}
+th {
+  text-align: left;
+}
+
+.background {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  margin: 20px;
+  background-color: #D3D3D3;
+  min-width: 320px;
+  min-height: 200px;
+  border-radius: 5px;
+}
+
+p {
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: 40px;
+  margin-right: 40px;
+  text-align: left;
 }
