@@ -64,12 +64,14 @@ h1 {
   text-align: left;
   padding-left: 25px;
   font-size: 22px;
+
 }
 
 th {
   text-align: left;
-  padding-bottom: 5px;
+  padding-bottom: 0px;
   text-transform: uppercase;
+  border-right: 1px solid hotpink;
 }
 
 table {
@@ -79,7 +81,7 @@ table {
 
 tr.mid:nth-child(odd) {
   background-color: #373737;
-  color: white
+  color: white;
 }
 
 .background {
