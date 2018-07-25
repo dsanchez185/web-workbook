@@ -1,0 +1,94 @@
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  background: url("../img/airline.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+.mainheader {
+  background: #193A55;
+  width: 100%;
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid white;
+}
+
+.logo {
+  width: 50%;
+  position: relative;
+}
+
+.nav {
+  position: relative;
+  right: 5%;
+  margin-left: 5%;
+  box-sizing: border-box;
+}
+
+ul.navigationarea {
+  list-style-type: none;
+  margin: 0;
+  text-align: right;
+  color: white;
+  font-size: 12px;
+}
+
+li.listarea {
+  display: inline;
+  text-align: right;
+  margin: 5px;
+}
+
+#layout {
+  background-color: #004080;
+  height: 300px;
+  width: 320px;
+  float: left;
+  position: relative;
+  top: 150px;
+  left: 3%;
+}
+
+#layout>div:nth-child(1) {
+  background-color: #3CB371;
+  width: 100%;
+  height: 20%;
+  position: absolute;
+    right:0;
+}
+#layout > div:nth-child(2){
+  background-color:#3CB371;
+  width: 55%;
+  height: 20%;
+  position: absolute;
+  right: 0;
+}
+#layout > div:nth-child(3){
+  background-color:#3CB371;
+  width: 15%;
+  height: 20%;
+  position: absolute;
+  right: 0;
+}
+
+#layout>div:nth-child(4) {
+  width: 85%;
+  height: 15%;
+  background-color: #87afc7;
+  position: absolute;
+  top: 75%;
+  margin: 0 auto;
+  left: 5%;
+  right: 5%;
+}
+
+div.sflights {
+  color: white;
+  text-align: center;
+}
+
+.icons {
+  padding-right: 5px;
+}
