@@ -40,7 +40,9 @@ li.listarea {
   text-align: right;
   margin: 5px;
 }
+
 /* blue mid area */
+
 #layout {
   background-color: #004080;
   height: 300px;
@@ -53,50 +55,62 @@ li.listarea {
   margin: 0 auto;
   border-radius: 8px;
 }
+
 /* green bar */
+
 #layout>div:nth-child(1) {
   background-color: #3CB371;
   width: 100%;
   height: 20%;
   position: absolute;
-    border-radius: 8px 8px 0px 0px;
+  border-radius: 8px 8px 0px 0px;
 }
+
 /* airplane bar */
-#layout > div:nth-child(2){
-  background-color:#3CB371;
+
+#layout>div:nth-child(2) {
+  background-color: #3CB371;
   width: 55%;
   height: 20%;
   position: absolute;
   float: left;
-  left:9%;
+  left: 9%;
 }
+
 /* hotel bar */
-#layout > div:nth-child(3){
-  background-color:#3CB371;
+
+#layout>div:nth-child(3) {
+  background-color: #3CB371;
   width: 15%;
   height: 20%;
   position: absolute;
   border-radius: 8px;
   float: right;
-  right:42%;
+  right: 42%;
 }
+
 /* empty */
-#layout > div:nth-child(4){
-  background-color:;
+
+#layout>div:nth-child(4) {
+  background-color: ;
   width: 15%;
   height: 20%;
   position: absolute;
   right: 8px;
   border-radius: 8px;
 }
+
 /* car bar */
+
 #layout>div:nth-child(5) {
   position: absolute;
   margin: 0 auto;
-float:right;
+  float: right;
   right: 40px;
 }
+
 /* search flights bar*/
+
 #layout>div:nth-child(6) {
   width: 85%;
   height: 18%;
@@ -108,14 +122,32 @@ float:right;
   right: 5%;
   border-radius: 4px;
 }
+/* search flights text  */
 #layout>div:nth-child(7) {
   position: absolute;
   margin: 0 auto;
-text-align: center;
+  text-align: center;
   color: white;
   font-size: 14px;
   top: 81%;
   right: 42%;
+}
+
+div.innerbox1 {
+  position: absolute;
+  width: 160px;
+  height: 45px;
+  margin: 0 auto;
+  background-color: none;
+  border: 1px solid white;
+  float: left;
+  top: 30%;
+  border-radius: 4px;
+  left: 8%;
+  color: #e7e7e7;
+  font-size: 14px;
+  box-sizing: border-box;
+  padding:13px;
 }
 
 .icons {
