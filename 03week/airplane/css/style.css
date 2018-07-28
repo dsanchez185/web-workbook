@@ -19,6 +19,9 @@ body {
   width: 50%;
   position: relative;
 }
+.icons {
+  padding-right: 5px;
+}
 
 .nav {
   position: relative;
@@ -45,7 +48,7 @@ li.listarea {
 
 #layout {
   background-color: #004080;
-  height: 300px;
+  height: 380px;
   width: 420px;
   float: left;
   position: relative;
@@ -54,6 +57,7 @@ li.listarea {
   align-items: center;
   margin: 0 auto;
   border-radius: 8px;
+  box-sizing: border-box;
 }
 
 /* green bar */
@@ -64,6 +68,7 @@ li.listarea {
   height: 20%;
   position: absolute;
   border-radius: 8px 8px 0px 0px;
+  box-sizing: border-box;
 }
 
 /* airplane bar */
@@ -75,6 +80,8 @@ li.listarea {
   position: absolute;
   float: left;
   left: 9%;
+  padding-top: 15px;
+  box-sizing: border-box;
 }
 
 /* hotel bar */
@@ -87,6 +94,8 @@ li.listarea {
   border-radius: 8px;
   float: right;
   right: 42%;
+  padding-top: 15px;
+  box-sizing: border-box;
 }
 
 /* empty */
@@ -107,20 +116,23 @@ li.listarea {
   margin: 0 auto;
   float: right;
   right: 40px;
+  padding-top: 15px;
+  box-sizing: border-box;
 }
 
 /* search flights bar*/
 
 #layout>div:nth-child(6) {
   width: 85%;
-  height: 18%;
+  height: 14%;
   background-color: #87afc7;
   position: absolute;
-  top: 75%;
+  top: 80%;
   margin: 0 auto;
   left: 5%;
   right: 5%;
   border-radius: 4px;
+  box-sizing: border-box;
 }
 /* search flights text  */
 #layout>div:nth-child(7) {
@@ -129,10 +141,11 @@ li.listarea {
   text-align: center;
   color: white;
   font-size: 14px;
-  top: 81%;
-  right: 42%;
+  top: 85%;
+  right: 40%;
+  box-sizing: border-box;
 }
-
+/* depart line  */
 div.innerbox1 {
   position: absolute;
   width: 160px;
@@ -141,15 +154,91 @@ div.innerbox1 {
   background-color: none;
   border: 1px solid white;
   float: left;
-  top: 30%;
+  top: 25%;
   border-radius: 4px;
   left: 8%;
-  color: #e7e7e7;
+  color: #d3d3d3;
+  font-size: 14px;
+  box-sizing: border-box;
+  padding:13px;
+}
+/* Arrive line  */
+div.outterbox1 {
+  position: absolute;
+  width: 160px;
+  height: 45px;
+  margin: 0 auto;
+  background-color: none;
+  border: 1px solid white;
+  float: right;
+  top: 25%;
+  border-radius: 4px;
+  right: 8%;
+  color: #d3d3d3;
+  font-size: 14px;
+  box-sizing: border-box;
+  padding:13px;
+}
+/* depart date */
+div.innerbox2 {
+  position: absolute;
+  width: 160px;
+  height: 45px;
+  margin: 0 auto;
+  background-color: none;
+  border: 1px solid white;
+  float: left;
+  top: 43%;
+  border-radius: 4px;
+  left: 8%;
+  color: #d3d3d3;
   font-size: 14px;
   box-sizing: border-box;
   padding:13px;
 }
 
-.icons {
-  padding-right: 5px;
+/* Arrive date  */
+div.outterbox2 {
+  position: absolute;
+  width: 160px;
+  height: 45px;
+  margin: 0 auto;
+  background-color: none;
+  border: 1px solid white;
+  float: right;
+  top: 43%;
+  border-radius: 4px;
+  right: 8%;
+  color: #d3d3d3;
+  font-size: 14px;
+  box-sizing: border-box;
+  padding:13px;
+}
+/* passenger */
+div.passenger {
+  position: absolute;
+  width: 160px;
+  height: 45px;
+  margin: 0 auto;
+  float: left;
+  top: 62%;
+  left: 5%;
+  color: #d3d3d3;
+  font-size: 14px;
+  box-sizing: border-box;
+  padding:13px;
+}
+div.dropdown {
+    position: absolute;
+    width: 60px;
+    height: 45px;
+    margin: 0 auto;
+    background-color: none;
+    border: 1px solid white;
+    top: 62%;
+    right: 55%;
+    border-radius: 4px;
+    box-sizing: border-box;
+    /* padding:13px; */
+  }
 }
