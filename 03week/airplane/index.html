@@ -34,12 +34,21 @@
     <div><strong>Search Flights</strong></div>
     <div class="innerbox1"><strong>Depart</strong></div>
     <div class="outterbox1"><strong>Arrive</strong></div>
-    <div class="innerbox2"><strong>mm/dd/yy</strong></div>
+    <div class="innerbox2"><form action="/action_page.php">
+  <input type="date" name="flight schedule">
+</form></div>
     <div class="outterbox2"><strong>mm/dd/yy</strong></div>
     <div class="passenger"><strong>Passengers</strong></div>
     <div class="dropdown"></div>
-
+<div class="radioform">
+  <form><input type="radio" name="flight" value="Return" checked>Return</form>
+</div>
+<div class="radioform2">
+  <form><input type="radio" name="flight" value="One Way">One Way</form>
+</div>
   </section>
+
+
 </body>
 
 </html>

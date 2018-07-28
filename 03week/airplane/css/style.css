@@ -239,6 +239,22 @@ div.dropdown {
     right: 55%;
     border-radius: 4px;
     box-sizing: border-box;
-    /* padding:13px; */
   }
-}
+  div.radioform {
+    position: absolute;
+    right:32%;
+    color: white;
+    top:65%;
+    color: #d3d3d3;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  div.radioform2 {
+    position: absolute;
+    right: 10%;
+    color: white;
+    top:65%;
+    color: #d3d3d3;
+    font-size: 14px;
+    font-weight: bold;
+  }
