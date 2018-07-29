@@ -15,10 +15,21 @@ body {
   border-bottom: 1px solid white;
 }
 
+a:link {
+  color: #d3d3d3;
+}
+
+/* mouse over link */
+
+a:hover {
+  color: #87afc7;
+}
+
 .logo {
   width: 50%;
   position: relative;
 }
+
 .icons {
   padding-right: 5px;
 }
@@ -134,7 +145,9 @@ li.listarea {
   border-radius: 4px;
   box-sizing: border-box;
 }
+
 /* search flights text  */
+
 #layout>div:nth-child(7) {
   position: absolute;
   margin: 0 auto;
@@ -145,7 +158,9 @@ li.listarea {
   right: 40%;
   box-sizing: border-box;
 }
+
 /* depart line  */
+
 div.innerbox1 {
   position: absolute;
   width: 160px;
@@ -160,9 +175,11 @@ div.innerbox1 {
   color: #d3d3d3;
   font-size: 14px;
   box-sizing: border-box;
-  padding:13px;
+  padding: 13px;
 }
+
 /* Arrive line  */
+
 div.outterbox1 {
   position: absolute;
   width: 160px;
@@ -177,9 +194,23 @@ div.outterbox1 {
   color: #d3d3d3;
   font-size: 14px;
   box-sizing: border-box;
-  padding:13px;
+  padding: 13px;
 }
+
+/* dateform - depart_arrive */
+
+input[type=text] {
+  margin: 0 auto;
+  box-sizing: border-box;
+  background-color: #004080;
+  color: white;
+  border: none;
+  cursor: pointer;
+  width: 130px;
+}
+
 /* depart date */
+
 div.innerbox2 {
   position: absolute;
   width: 160px;
@@ -194,10 +225,11 @@ div.innerbox2 {
   color: #d3d3d3;
   font-size: 14px;
   box-sizing: border-box;
-  padding:13px;
+  padding: 13px;
 }
 
 /* Arrive date  */
+
 div.outterbox2 {
   position: absolute;
   width: 160px;
@@ -212,9 +244,11 @@ div.outterbox2 {
   color: #d3d3d3;
   font-size: 14px;
   box-sizing: border-box;
-  padding:13px;
+  padding: 13px;
 }
+
 /* passenger */
+
 div.passenger {
   position: absolute;
   width: 160px;
@@ -226,35 +260,93 @@ div.passenger {
   color: #d3d3d3;
   font-size: 14px;
   box-sizing: border-box;
-  padding:13px;
+  padding: 13px;
 }
+
+.dropbtn {
+  background-color: #004080;
+  ;
+  color: white;
+  padding-left: 1px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3CB371;
+}
+
 div.dropdown {
-    position: absolute;
-    width: 60px;
-    height: 45px;
-    margin: 0 auto;
-    background-color: none;
-    border: 1px solid white;
-    top: 62%;
-    right: 55%;
-    border-radius: 4px;
-    box-sizing: border-box;
-  }
-  div.radioform {
-    position: absolute;
-    right:32%;
-    color: white;
-    top:65%;
-    color: #d3d3d3;
-    font-size: 14px;
-    font-weight: bold;
-  }
-  div.radioform2 {
-    position: absolute;
-    right: 10%;
-    color: white;
-    top:65%;
-    color: #d3d3d3;
-    font-size: 14px;
-    font-weight: bold;
-  }
+  position: absolute;
+  width: 60px;
+  height: 45px;
+  margin: 0 auto;
+  background-color: none;
+  border: 1px solid white;
+  top: 62%;
+  right: 55%;
+  border-radius: 4px;
+  box-sizing: border-box;
+  color: #d3d3d3;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 14px 12px 14px 22px;
+}
+
+div.radioform {
+  position: absolute;
+  right: 32%;
+  color: white;
+  top: 65%;
+  color: #d3d3d3;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+div.radioform2 {
+  position: absolute;
+  right: 10%;
+  color: white;
+  top: 65%;
+  color: #d3d3d3;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* Calendar dropdown */
+
+input[type=date] {
+  margin: 0 auto;
+  box-sizing: border-box;
+  background-color: #004080;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
