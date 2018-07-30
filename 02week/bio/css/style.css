@@ -1,0 +1,126 @@
+body {
+  background-color: #f5f5f5;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #373737;
+}
+
+/* unvisited link */
+
+a:link {
+  color: #373737;
+}
+
+/* visited link */
+
+a:visited {
+  color: #373737;
+}
+
+/* mouse over link */
+
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+
+a:active {
+  color: #373737;
+}
+
+.header {
+  font-size: 38px;
+  text-align: left;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+ul.navigationarea {
+  list-style-type: none;
+  margin: 0;
+  padding: 0px 10px 0px 0px;
+  text-align: right;
+  font-weight: bold;
+}
+
+li.listarea {
+  display: inline;
+  text-align: right;
+  margin: 3px;
+}
+
+img.MeetDiana {
+  width: 150px;
+  height: 150px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0px 10px 0px 5px;
+  float: left;
+}
+
+h1 {
+  text-transform: uppercase;
+  text-align: left;
+  padding-left: 25px;
+  font-size: 22px;
+
+}
+
+th {
+  text-align: left;
+  padding-bottom: 0px;
+  text-transform: uppercase;
+  border-right: 1px solid hotpink;
+}
+
+table {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+tr.mid:nth-child(odd) {
+  background-color: #373737;
+  color: white;
+}
+
+.background {
+  padding-bottom: 5px;
+  text-align: center;
+  margin: 20px;
+  min-width: 320px;
+  min-height: 175px;
+}
+
+.backgroundheader {
+  padding-top: 10px;
+  padding-bottom: 5px;
+  text-align: center;
+  margin: 20px;
+  border-bottom: 1px solid hotpink;
+  min-width: 320px;
+  min-height: 55px;
+}
+
+p {
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  text-align: left;
+}
+
+.prefooter {
+  display: block;
+  margin-bottom: 1em;
+  margin-left: 30px;
+  margin-right: 30px;
+  text-align: center;
+  border-top: 1px solid hotpink;
+  border-bottom: 1px solid hotpink;
+  padding: 10px 10px 10px 10px;
+}
+
+footer {
+  padding-bottom: 5px;
+  padding-left: 20px;
+}
