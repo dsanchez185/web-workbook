@@ -1,0 +1,352 @@
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  background: url("../img/airline.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+.mainheader {
+  background: #193A55;
+  width: 100%;
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid white;
+}
+
+a:link {
+  color: #d3d3d3;
+}
+
+/* mouse over link */
+
+a:hover {
+  color: #87afc7;
+}
+
+.logo {
+  width: 50%;
+  position: relative;
+}
+
+.icons {
+  padding-right: 5px;
+}
+
+.nav {
+  position: relative;
+  right: 5%;
+  margin-left: 5%;
+  box-sizing: border-box;
+}
+
+ul.navigationarea {
+  list-style-type: none;
+  margin: 0;
+  text-align: right;
+  color: white;
+  font-size: 12px;
+}
+
+li.listarea {
+  display: inline;
+  text-align: right;
+  margin: 5px;
+}
+
+/* blue mid area */
+
+#layout {
+  background-color: #004080;
+  height: 380px;
+  width: 420px;
+  float: left;
+  position: relative;
+  top: 150px;
+  left: 3%;
+  align-items: center;
+  margin: 0 auto;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+
+/* green bar */
+
+#layout>div:nth-child(1) {
+  background-color: #3CB371;
+  width: 100%;
+  height: 20%;
+  position: absolute;
+  border-radius: 8px 8px 0px 0px;
+  box-sizing: border-box;
+}
+
+/* airplane bar */
+
+#layout>div:nth-child(2) {
+  background-color: #3CB371;
+  width: 55%;
+  height: 20%;
+  position: absolute;
+  float: left;
+  left: 9%;
+  padding-top: 15px;
+  box-sizing: border-box;
+}
+
+/* hotel bar */
+
+#layout>div:nth-child(3) {
+  background-color: #3CB371;
+  width: 15%;
+  height: 20%;
+  position: absolute;
+  border-radius: 8px;
+  float: right;
+  right: 42%;
+  padding-top: 15px;
+  box-sizing: border-box;
+}
+
+/* empty */
+
+#layout>div:nth-child(4) {
+  background-color: ;
+  width: 15%;
+  height: 20%;
+  position: absolute;
+  right: 8px;
+  border-radius: 8px;
+}
+
+/* car bar */
+
+#layout>div:nth-child(5) {
+  position: absolute;
+  margin: 0 auto;
+  float: right;
+  right: 40px;
+  padding-top: 15px;
+  box-sizing: border-box;
+}
+
+/* search flights bar*/
+
+#layout>div:nth-child(6) {
+  width: 85%;
+  height: 14%;
+  background-color: #87afc7;
+  position: absolute;
+  top: 80%;
+  margin: 0 auto;
+  left: 5%;
+  right: 5%;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/* search flights text  */
+
+#layout>div:nth-child(7) {
+  position: absolute;
+  margin: 0 auto;
+  text-align: center;
+  color: white;
+  font-size: 14px;
+  top: 85%;
+  right: 40%;
+  box-sizing: border-box;
+}
+
+/* depart line  */
+
+div.innerbox1 {
+  position: absolute;
+  width: 160px;
+  height: 45px;
+  margin: 0 auto;
+  background-color: none;
+  border: 1px solid white;
+  float: left;
+  top: 25%;
+  border-radius: 4px;
+  left: 8%;
+  color: #d3d3d3;
+  font-size: 14px;
+  box-sizing: border-box;
+  padding: 13px;
+}
+
+/* Arrive line  */
+
+div.outterbox1 {
+  position: absolute;
+  width: 160px;
+  height: 45px;
+  margin: 0 auto;
+  background-color: none;
+  border: 1px solid white;
+  float: right;
+  top: 25%;
+  border-radius: 4px;
+  right: 8%;
+  color: #d3d3d3;
+  font-size: 14px;
+  box-sizing: border-box;
+  padding: 13px;
+}
+
+/* dateform - depart_arrive */
+
+input[type=text] {
+  margin: 0 auto;
+  box-sizing: border-box;
+  background-color: #004080;
+  color: white;
+  border: none;
+  cursor: pointer;
+  width: 130px;
+}
+
+/* depart date */
+
+div.innerbox2 {
+  position: absolute;
+  width: 160px;
+  height: 45px;
+  margin: 0 auto;
+  background-color: none;
+  border: 1px solid white;
+  float: left;
+  top: 43%;
+  border-radius: 4px;
+  left: 8%;
+  color: #d3d3d3;
+  font-size: 14px;
+  box-sizing: border-box;
+  padding: 13px;
+}
+
+/* Arrive date  */
+
+div.outterbox2 {
+  position: absolute;
+  width: 160px;
+  height: 45px;
+  margin: 0 auto;
+  background-color: none;
+  border: 1px solid white;
+  float: right;
+  top: 43%;
+  border-radius: 4px;
+  right: 8%;
+  color: #d3d3d3;
+  font-size: 14px;
+  box-sizing: border-box;
+  padding: 13px;
+}
+
+/* passenger */
+
+div.passenger {
+  position: absolute;
+  width: 160px;
+  height: 45px;
+  margin: 0 auto;
+  float: left;
+  top: 62%;
+  left: 5%;
+  color: #d3d3d3;
+  font-size: 14px;
+  box-sizing: border-box;
+  padding: 13px;
+}
+
+.dropbtn {
+  background-color: #004080;
+  ;
+  color: white;
+  padding-left: 1px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3CB371;
+}
+
+div.dropdown {
+  position: absolute;
+  width: 60px;
+  height: 45px;
+  margin: 0 auto;
+  background-color: none;
+  border: 1px solid white;
+  top: 62%;
+  right: 55%;
+  border-radius: 4px;
+  box-sizing: border-box;
+  color: #d3d3d3;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 14px 12px 14px 22px;
+}
+
+div.radioform {
+  position: absolute;
+  right: 32%;
+  color: white;
+  top: 65%;
+  color: #d3d3d3;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+div.radioform2 {
+  position: absolute;
+  right: 10%;
+  color: white;
+  top: 65%;
+  color: #d3d3d3;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* Calendar dropdown */
+
+input[type=date] {
+  margin: 0 auto;
+  box-sizing: border-box;
+  background-color: #004080;
+  color: white;
+  border: none;
+  cursor: pointer;
+}

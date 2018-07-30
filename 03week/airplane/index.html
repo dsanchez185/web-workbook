@@ -1,10 +1,74 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Diana's Airplane</title>
-  </head>
-  <body>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Diana's Airplane</title>
+</head>
 
-  </body>
+<body>
+  <header>
+    <div class="mainheader">
+      <div class="logo">
+        <a href="#"><img src="./img/logo.png" alt="UX Atlantic Logo" /></a>
+      </div>
+      <div class=nav>
+        <ul class="navigationarea">
+          <li class="listarea"><img class="icons" src="./img/home-icon.png" alt="Home" /><a href="#" style="text-decoration: none;">Home</a></li>
+          <li class="listarea"><img class="icons" src="./img/deal-icon.png" alt="Travel Deals" /><a href="#" style="text-decoration: none;">Travel Deals</a></li>
+          <li class="listarea"><img class="icons" src="./img/schedule-icon.png" alt="Schedule" /><a href="#" style="text-decoration: none;">Flight Schedule</a></li>
+          <li class="listarea"><img class="icons" src="./img/login-icon.png" alt="Login" /><a href="#" style="text-decoration: none;">Login</a></li>
+        </ul>
+      </div>
+    </div>
+  </header>
+  <!--end of header, start of box-->
+  <section id="layout">
+    <div></div>
+    <div><a href="#"><img src="./img/plane-icon.png" alt="Airplane" /></a></div>
+    <div><a href="#"><img src="./img/hotel-icon.png" alt="Hotel" /></a></div>
+    <div></div>
+    <div><a href="#"><img src="./img/car-icon.png" alt="Car" /></a></div>
+    <div></div>
+    <div>
+      <strong><a href="#" style="text-decoration: none; color:white;">Search Flights</a></strong></div>
+    <div class="innerbox1">
+      <form>
+        <input type="text" name="depart" value="Depart">
+      </form>
+    </div>
+    <div class="outterbox1">
+      <form>
+        <input type="text" name="depart" value="Arrive">
+      </form>
+    </div>
+    <div class="innerbox2">
+      <form action="/action_page.php">
+        <input type="date" name="depart schedule">
+      </form>
+    </div>
+    <div class="outterbox2">
+      <form action="/action_page.php">
+        <input type="date" name="arrive schedule">
+      </form>
+    </div>
+    <div class="passenger"><strong>Passengers</strong></div>
+    <div class="dropdown">
+      <button class="dropbtn">1</button>
+      <div class="dropdown-content">
+        <a href="#">1</a>
+        <a href="#">2</a>
+        <a href="#">3</a>
+      </div>
+    </div>
+    <div class="radioform">
+      <form><input type="radio" name="flight" value="Return" checked>Return</form>
+    </div>
+    <div class="radioform2">
+      <form><input type="radio" name="flight" value="One Way">One Way</form>
+    </div>
+  </section>
+
+
+</body>
 </html>
