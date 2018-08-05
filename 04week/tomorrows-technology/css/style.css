@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   width: 992px;
   margin: 20px auto;
@@ -38,17 +42,12 @@ body {
   justify-content: space-around;
 }
 
-/* s
-
-end borderection left */
-
 .sectionleft {
   width: 742px;
 }
 
 img {
   width: 100%;
-  float: left !important;
   margin: 5px;
   padding-bottom: 10px;
 }
@@ -58,6 +57,7 @@ button {
   color: white;
   text-transform: uppercase;
   padding: 5px;
+  margin-bottom: 10px;
 }
 
 /* begin of section right */
@@ -77,21 +77,45 @@ h3 {
 }
 
 /* begin of mobile bottom section */
+
 .flex2 {
   display: flex;
   justify-content: space-around;
   background-color: grey;
-  margin-top: 10px;
+  padding-top: 10px;
   color: white;
 }
+
+.mobileheader {
+  font-size: 14px;
+}
+
 h4 {
   font-size: 12px;
 }
+
 .mobileleft {
-width:288px;
+  flex: 50%;
+  padding: 10px;
 }
+
 .mobileright {
-  width: 288px;
+  flex: 50%;
+  padding: 10px;
+}
+
+.fa {
+  padding: 10px 10px 10px 0px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  margin: 5px 0px;
+}
+
+.flex2, h4, .mobileheader, .mobileleft, .mobileright, .fa {
+  display: none;
 }
 
 /* start of media queries */
@@ -99,6 +123,14 @@ width:288px;
 @media (max-width: 768px) {
   .sectionright {
     display: none;
+  }
+  body {
+    width: 100%;
+    float: left;
+    margin: 5px;
+  }
+  img {
+    padding-top: 10px;
   }
   #bottom {
     background: black;
@@ -113,6 +145,12 @@ width:288px;
     bottom: 0;
   }
 }
-@media (max-width: 576px) {
 
+@media (max-width: 576px) {
+  #bottom {
+    display: none;
+  }
+  .flex2, h4, .mobileheader, .mobileleft, .mobileright, .fa {
+    display: block;
+  }
 }
