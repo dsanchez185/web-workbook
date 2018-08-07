@@ -1,1 +1,125 @@
+* {
+    box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+  width: 956px;
+  margin: 0 auto;
+}
+header {
+  text-align: center;
+  font-size: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  letter-spacing: 5px;
+}
+.main-container {
+  display: grid;
+  margin-left: 10px;
+  margin-right: 10px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-column-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+  grid-gap: 10px;
+  grid-template-areas:
+  "box1 box1 box2 box2"
+  "box3 box3 box4 box5"
+  "box3 box3 box6 box6"
+  "box7 box8 box9 box10"
+}
+.box:nth-child(even){
+  background-color: powderblue;
+}
+.box:nth-child(odd){
+  background-color: lightgray;
+}
+/* box1 content */
+.box1{
+  grid-area: box1;
+}
+.sunset1 img {
+  display: block;
+  width: 165px;
+  height: 140px;
+  margin: 0px 10px 14px 10px;
+  float: left;
+  border-radius: 20px;
+}
+button {
+  margin: 0px 20px 10px 10px;
+  padding: 5px 20px 5px 20px;
+  float: right;
+  border-radius: 1px;
+  background-color: powderblue;
+}
 
+/* end box1 content, start box2 content */
+
+.box2{
+  grid-area: box2;
+}
+.alamo2 img {
+  display: block;
+  width: 165px;
+  height: 140px;
+  margin: 0px 10px 14px 10px;
+  float: left;
+  border-radius: 20px;
+}
+.bgrey {
+  margin: 0px 20px 10px 10px;
+  padding: 5px 20px 5px 20px;
+  float: right;
+  border-radius: 1px;
+  background-color: lightgray;
+}
+/* end box2 content, start box3 content */
+.box3{
+  grid-area: box3;
+}
+h2 {
+  text-align: center;
+  font-size: 42px;
+  margin: 0 auto;
+  padding: 20px 10px 20px 10px;
+  font-weight: lighter;
+  letter-spacing: 5px;
+}
+.grandma3 img {
+  display: block;
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
+  border-radius: 80px;
+}
+/* end box3 content, start box4 content */
+.box4{
+  grid-area: box4;
+}
+.bingo4 img {
+  display: block;
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
+}
+.bingop {
+  margin: 0px 10px 5px 10px;
+}
+.box5{
+  grid-area: box5;
+}
+.box6{
+  grid-area: box6;
+}
+.box7{
+  grid-area: box7;
+}
+.box8{
+  grid-area: box8;
+}
+.box9{
+  grid-area: box9;
+}
+.box10{
+  grid-area: box10;
+}
