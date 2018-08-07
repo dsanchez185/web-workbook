@@ -105,14 +105,54 @@ h2 {
 .bingop {
   margin: 0px 10px 5px 10px;
 }
+/* end box4 content, start box5 content */
 .box5{
   grid-area: box5;
 }
+.fiesta5 img {
+  display: block;
+  width: 130px;
+  height: 130px;
+  margin: 0 auto;
+  border-radius: 80px;
+  margin-top: 14px;
+}
+.fiestap {
+  margin: 8px 10px 0px 10px;
+}
+/* end box5 content, start box6 content */
 .box6{
   grid-area: box6;
 }
+.spurs6 img {
+  display: block;
+  width: 215px;
+  height: 100px;
+  margin-bottom: 10px;
+  padding-left: 20px;
+  float: left;
+}
+.spursp {
+  text-align: center;
+  font-size: 16px;
+  letter-spacing: 5px;
+  padding-top: 5px;
+  font-weight: bold;
+}
+/* end box6 content, start box7 content */
 .box7{
   grid-area: box7;
+}
+.fiesta7 img {
+  display: block;
+  width: 170px;
+  height: 120px;
+  margin: 0 auto;
+  padding-top: 15px;
+}
+.fiesta7p {
+  padding: 0px 3px 0px 3px;
+  text-align: center;
 }
 .box8{
   grid-area: box8;
