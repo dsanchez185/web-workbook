@@ -1,11 +1,13 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
+
 body {
   font-family: sans-serif;
   width: 956px;
   margin: 0 auto;
 }
+
 header {
   text-align: center;
   font-size: 40px;
@@ -13,6 +15,7 @@ header {
   padding-bottom: 20px;
   letter-spacing: 5px;
 }
+
 .main-container {
   display: grid;
   margin-left: 10px;
@@ -21,22 +24,23 @@ header {
   grid-column-gap: 10px;
   grid-auto-rows: minmax(100px, auto);
   grid-gap: 10px;
-  grid-template-areas:
-  "box1 box1 box2 box2"
-  "box3 box3 box4 box5"
-  "box3 box3 box6 box6"
-  "box7 box8 box9 box10"
+  grid-template-areas: "box1 box1 box2 box2" "box3 box3 box4 box5" "box3 box3 box6 box6" "box7 box8 box9 box10"
 }
-.box:nth-child(even){
+
+.box:nth-child(even) {
   background-color: powderblue;
 }
-.box:nth-child(odd){
+
+.box:nth-child(odd) {
   background-color: lightgray;
 }
+
 /* box1 content */
-.box1{
+
+.box1 {
   grid-area: box1;
 }
+
 .sunset1 img {
   display: block;
   width: 165px;
@@ -45,19 +49,45 @@ header {
   float: left;
   border-radius: 20px;
 }
+/* powderblue button */
 button {
   margin: 0px 20px 10px 10px;
   padding: 5px 20px 5px 20px;
   float: right;
-  border-radius: 1px;
+  border-radius: 4px;
+  border: 1px solid white;
   background-color: powderblue;
+  color: white;
+  cursor: pointer;
+}
+button:hover {
+  background-color: lightgray;
+  color: black;
+  border: 1px solid black;
+}
+/* grey button */
+.bgrey {
+  margin: 0px 20px 10px 10px;
+  padding: 5px 20px 5px 20px;
+  float: right;
+  border-radius: 4px;
+  border: 1px solid white;
+  background-color: lightgray;
+  cursor: pointer;
+  color: white;
+}
+.bgrey:hover {
+  background-color: powderblue;
+  color: black;
+  border: 1px solid black;
 }
 
 /* end box1 content, start box2 content */
 
-.box2{
+.box2 {
   grid-area: box2;
 }
+
 .alamo2 img {
   display: block;
   width: 165px;
@@ -66,17 +96,13 @@ button {
   float: left;
   border-radius: 20px;
 }
-.bgrey {
-  margin: 0px 20px 10px 10px;
-  padding: 5px 20px 5px 20px;
-  float: right;
-  border-radius: 1px;
-  background-color: lightgray;
-}
+
 /* end box2 content, start box3 content */
-.box3{
+
+.box3 {
   grid-area: box3;
 }
+
 h2 {
   text-align: center;
   font-size: 42px;
@@ -84,6 +110,10 @@ h2 {
   padding: 20px 10px 20px 10px;
   font-weight: lighter;
   letter-spacing: 5px;
+  color: white;
+}
+h2:hover {
+  color: black;
 }
 .grandma3 img {
   display: block;
@@ -92,23 +122,30 @@ h2 {
   margin: 0 auto;
   border-radius: 80px;
 }
+
 /* end box3 content, start box4 content */
-.box4{
+
+.box4 {
   grid-area: box4;
 }
+
 .bingo4 img {
   display: block;
   width: 150px;
   height: 150px;
   margin: 0 auto;
 }
+
 .bingop {
-  margin: 0px 10px 5px 10px;
+  margin: 0px 10px 10px 10px;
 }
+
 /* end box4 content, start box5 content */
-.box5{
+
+.box5 {
   grid-area: box5;
 }
+
 .fiesta5 img {
   display: block;
   width: 130px;
@@ -117,49 +154,106 @@ h2 {
   border-radius: 80px;
   margin-top: 14px;
 }
+
 .fiestap {
   margin: 8px 10px 0px 10px;
 }
+
 /* end box5 content, start box6 content */
-.box6{
+
+.box6 {
   grid-area: box6;
 }
+
 .spurs6 img {
   display: block;
-  width: 215px;
+  width: 235px;
   height: 100px;
   margin-bottom: 10px;
   padding-left: 20px;
+  padding-right: 20px;
   float: left;
 }
+
 .spursp {
-  text-align: center;
   font-size: 16px;
-  letter-spacing: 5px;
   padding-top: 5px;
-  font-weight: bold;
 }
+
 /* end box6 content, start box7 content */
-.box7{
+
+.box7 {
   grid-area: box7;
 }
+
 .fiesta7 img {
   display: block;
-  width: 170px;
-  height: 120px;
+  width: 200px;
+  height: 150px;
   margin: 0 auto;
   padding-top: 15px;
 }
+
 .fiesta7p {
+  padding: 0px 5px 0px 5px;
+  text-align: center;
+}
+
+/* end box7 content, start box8 content */
+
+.box8 {
+  grid-area: box8;
+}
+
+.tower8 img {
+  display: block;
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
+}
+
+.tower8p {
   padding: 0px 3px 0px 3px;
   text-align: center;
 }
-.box8{
-  grid-area: box8;
-}
-.box9{
+
+/* end box8 content, start box9 content */
+.box9 {
   grid-area: box9;
 }
-.box10{
+
+.fam9 img {
+  display: block;
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
+  padding-top: 15px;
+  border-radius: 50px;
+}
+
+.fam9p {
+  text-align: center;
+  padding: 0px 5px 0px 5px;
+}
+
+/* end box9 content, start box10 content */
+
+.box10 {
   grid-area: box10;
+}
+
+.gandg10 img {
+  display: block;
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
+  margin-top: 10px;
+  border-radius: 85px;
+}
+
+.gandg10p {
+  text-align: center;
+}
+footer{
+  padding: 10px;
 }
