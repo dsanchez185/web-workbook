@@ -1,0 +1,80 @@
+.trigger{
+  width: 50px;
+  height: 50px;
+  margin: 0 auto;
+}
+div {
+  transition: width 2s, height 2s, background-color 2s, transform 2s;
+  margin: 5px;
+}
+.trigger:hover :nth-child(odd){
+  transform: translate(500px) rotate(90deg); height: 100px; weight: 100px; transition: all 6s ease-in-out;
+}
+.trigger:hover :nth-child(even){
+  transform: translate(-500px) rotate(-90deg); height: 25px; weight: 25px; transition: all 2s ease-in-out;
+}
+.square1{
+  background-color: #6D7696;
+  width: 50px;
+  height: 50px;
+}
+.square2{
+  background-color: #59484F;
+  width: 50px;
+  height: 50px;
+}
+.square3{
+  background-color: #455C4F;
+  width: 50px;
+  height: 50px;
+}
+.square4{
+  background-color: #CC5543;
+  width: 50px;
+  height: 50px;
+}
+.square5{
+  background-color: #EDB579;
+  width: 50px;
+  height: 50px;
+}
+.square6{
+  background-color: #DBE6AF;
+  width: 50px;
+  height: 50px;
+}
+.square7{
+  background-color: #6E352C;
+  width: 50px;
+  height: 50px;
+}
+.square8{
+  background-color: #CF5230;
+  width: 50px;
+  height: 50px;
+
+}
+.square9{
+  background-color: #F59A44;
+  width: 50px;
+  height: 50px;
+
+}
+.square10{
+  background-color: #E3C598;
+  width: 50px;
+  height: 50px;
+
+}
+.square11{
+  background-color: #8A6E64;
+  width: 50px;
+  height: 50px;
+
+}
+.square12{
+  background-color: #6E612F;
+  width: 50px;
+  height: 50px;
+
+}
