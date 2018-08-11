@@ -254,7 +254,29 @@ he
 footer{
   padding: 10px;
 }
-
+/* Medium and up (Tablets) */
+@media (max-width: 768px){
+  .main-container {
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+      "box1 box2"
+      "box3 box4"
+      "box3 box5"
+      "box6 box6"
+      "box7 box8"
+      "box9 box10";
+      width: 100%;
+      max-width: 768px;
+  }
+  header {
+    width: 100%;
+    max-width: 768px;
+  }
+  body {
+    width: 100%;
+    max-width: 768px;
+  }
+}
 /* Small and up (Landscape Phones) */
 @media (max-width: 576px) {
   .main-container {
@@ -271,33 +293,15 @@ footer{
       "box8"
       "box9"
       "box10";
+      width: 100%;
+      max-width: 576px;
   }
-/* header {
+header {
   width: 100%;
-} */
+  max-width: 576px;
 }
-
-/* Medium and up (Tablets) */
-@media (min-width: 768px) and (max-width:991px) {
-  .main-container {
-    grid-template-columns: 1fr 1fr;
-    grid-template-areas:
-      "box1 box2"
-      "box3 box4"
-      "box3 box5"
-      "box6 box6"
-      "box7 box8"
-      "box9 box10";
-  }
+body {
+  width: 100%;
+  max-width: 576px;
 }
-/* Large and up (Desktops) */
-@media (min-width: 992px) {
-  .main-container {
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-areas:
-      "box1 box1 box2 box2"
-      "box3 box3 box4 box5"
-      "box3 box3 box6 box6"
-      "box7 box8 box9 box10";
-  }
 }
