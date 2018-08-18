@@ -1,0 +1,163 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 992px;
+  margin: 10px auto;
+  font-family: sans-serif;
+}
+
+/* border */
+
+#top, #right {
+  background: black;
+  position: fixed;
+}
+
+#right {
+  top: 0;
+  bottom: 0;
+  width: 2px;
+}
+
+#right {
+  right: 0;
+}
+
+#top {
+  left: 0;
+  right: 0;
+  height: 2px;
+}
+
+#top {
+  top: 0;
+}
+
+/* end border */
+
+.flex {
+  display: flex;
+  justify-content: space-around;
+}
+
+.sectionleft {
+  width: 742px;
+}
+
+img {
+  width: 100%;
+}
+
+button {
+  background: #484848;
+  color: white;
+  text-transform: uppercase;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+/* begin of section right */
+
+.sectionright {
+  width: 250px;
+  margin-left: 40px;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
+h3 {
+  font-size: 14px;
+}
+
+/* begin of mobile bottom section */
+
+.flex2 {
+  display: flex;
+  justify-content: space-around;
+  background-color: grey;
+  color: white;
+}
+
+.mobileheader {
+  font-size: 14px;
+}
+
+h4 {
+  font-size: 12px;
+}
+
+.mobileleft {
+  flex: 50%;
+  padding: 10px;
+}
+
+.mobileright {
+  flex: 50%;
+  padding: 10px 0px 0px 20px;
+}
+
+.fa {
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  margin: 5px 0px;
+}
+
+.flex2, h4, .mobileheader, .mobileleft, .mobileright, .fa {
+  display: none;
+}
+
+/* start of media queries */
+
+@media (max-width: 768px) and (min-width: 576px) {
+  .sectionright {
+    display: none;
+  }
+  body {
+    width: 100%;
+    margin: 10px;
+  }
+  img {
+    padding-top: 10px;
+  }
+  #bottom {
+    background: black;
+    position: fixed;
+  }
+  #bottom {
+    left: 0;
+    right: 0;
+    height: 2px;
+  }
+  #bottom {
+    bottom: 0;
+  }
+}
+
+@media (max-width: 576px) and (min-width:320px) {
+  body {
+    width: 100%;
+    margin: 10px;
+  }
+  .sectionright {
+    display: none;
+  }
+  #bottom {
+    display: none;
+  }
+  h4, .mobileheader, .mobileleft, .mobileright, .fa {
+    display: block;
+  }
+  .flex2 {
+    display: flex;
+    width: 100%;
+  }
+
+}
